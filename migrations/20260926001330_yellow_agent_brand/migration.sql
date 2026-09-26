@@ -1,2 +1,0 @@
-ALTER TABLE "restaurants" ADD COLUMN "manager_id" text;--> statement-breakpoint
-ALTER TABLE "restaurants" ADD CONSTRAINT "restaurants_manager_id_users_id_fkey" FOREIGN KEY ("manager_id") REFERENCES "users"("id");

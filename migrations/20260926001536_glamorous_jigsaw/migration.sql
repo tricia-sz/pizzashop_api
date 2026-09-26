@@ -1,1 +1,0 @@
-ALTER TABLE "restaurants" DROP CONSTRAINT "restaurants_manager_id_users_id_fkey", ADD CONSTRAINT "restaurants_manager_id_users_id_fkey" FOREIGN KEY ("manager_id") REFERENCES "users"("id") ON DELETE SET NULL ON UPDATE SET NULL;
